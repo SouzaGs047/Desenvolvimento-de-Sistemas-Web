@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Waze';
+    src: url('fonts/waze_1.woff2');
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: 'Waze';
+    src: url('fonts/waze_3.woff2');
+    font-weight: 700;
+}
+
+
+@font-face {
+    font-family: 'Waze';
+    src: url('fonts/waze_2.woff2');
+    font-weight: 500;
+}
