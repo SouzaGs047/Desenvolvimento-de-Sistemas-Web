@@ -33,7 +33,7 @@
 
 .cabecalho nav > div a {
     font-family: 'Waze';
-    font-weight: 700;
+    font-weight: 400;
     font-size: 16px;
     text-decoration: none;
     color: #000;
@@ -45,7 +45,7 @@
     padding: 8px 20px;
 
     border-radius: 20px;
-    font: 700 16px 'Waze';
+    font: 400 16px 'Waze';
 }
 
 
@@ -56,8 +56,8 @@
     border-radius: 10px;
     background-image: url('assets/varias_varias_pessoas.webp');
     background-size: cover;
-    background-position: 0px -300px;
-    height: 230px;
+    background-position: 0px -310px;
+    height: 270px;
 
     color: #fff;
 }
@@ -71,13 +71,15 @@
 }
 
 .comunidade h1 {
-    font: 700 52px 'Waze';
+    font: 400 52px 'Waze';
     word-spacing: 12px;
+    padding: 0px 0px 0px 0px;
 }
 
 .comunidade h2 {
-    font: 500 22px 'Waze';
+    font: 400 22px 'Waze';
     margin-bottom: 10px;
+    padding: 20px 0px 0px 0px;
 }
 
 
@@ -90,8 +92,6 @@
 .pessoas{
     display: flex;
     flex-direction: row;
-
-    margin:auto;
 
     border-radius: 10px;
     background-color: #f2f2f250;
@@ -106,9 +106,9 @@
 
 .pessoas p{
     display: flex;
-    margin: auto;
-    padding: 50px;
-    font: 700 31px 'Waze';
+    margin: auto 95px ;
+    
+    font: 700 35px 'Waze';
 }
 
 
@@ -126,24 +126,32 @@
 .editores > div{
     border-radius: 10px;
     background-color: #fce354;
-    padding: 70px;
-    width: 35%;
+    padding: 60px 0px 70px 60px;
+    
+
+    width: 480px;
 }
 
+.editores > img {
+    border-radius: 10px;
+    width: 820px;
+}
 
 .editores > div p{
-    font: 700 24px 'Waze';
-    width: 70%;
+    font: 700 34px 'Waze';
+    width: 80%;
     margin-bottom: 20px;
 }
 
 .editores > div button{
-    font: 700 16px 'Waze';
-    border: 0px ;
+    font: 300 22px 'Waze';
+    border: 0px;
     background-color: #fff;
     padding: 8px 20px;
+    height: 60px;
+    width: 350px;
 
-    border-radius: 20px;
+    border-radius: 30px;
     
 }
 
