@@ -1,4 +1,4 @@
-.cultura{
+.cultura-banner{
     background-image: url(../assets/cultura-overview.jpg);
     background-size: cover;
     background-position: 0px -35px;
@@ -10,15 +10,15 @@
 
 
 
-.cultura h1{
+.cultura-banner h1{
     font: 500 54px 'Ifood';
 }
 
-.cultura h2{
+.cultura-banner h2{
     font: 500 30px 'Ifood';
 }
 
-.cultura button{
+.cultura-banner button{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -36,7 +36,7 @@
     font: 500 20px 'Ifood';
 }
 
-.cultura button:hover{
+.cultura-banner button:hover{
     background-color: #eb2c39b9;
     transition: 0.5s;
 }
