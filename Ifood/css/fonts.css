@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Ifood';
+    src: url('../fonts/SulSansTest-Regular.otf');
+    font-weight: 500;
+}
+ 
+@font-face {
+    font-family: 'Ifood';
+    src: url('../fonts/SulSansTest-Bold.otf');
+    font-weight: 800;
+}

@@ -1,0 +1,42 @@
+.cultura{
+    background-image: url(../assets/cultura-overview.jpg);
+    background-size: cover;
+    background-position: 0px -35px;
+    align-content: center;
+    height: 600px;
+
+    padding: 0px 360px;
+}
+
+
+
+.cultura h1{
+    font: 500 54px 'Ifood';
+}
+
+.cultura h2{
+    font: 500 30px 'Ifood';
+}
+
+.cultura button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 0;
+    border-radius: 5px;
+
+    width: 349px;
+    height: 62px;
+    margin: 40px 0px 0px;
+    padding: 0px 16px;
+
+    color: white;
+    background-color: #eb2c3a;
+
+    font: 500 20px 'Ifood';
+}
+
+.cultura button:hover{
+    background-color: #eb2c39b9;
+    transition: 0.5s;
+}
