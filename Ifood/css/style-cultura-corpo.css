@@ -1,7 +1,29 @@
 .cultura-corpo{
+    display: flex;
     margin: 0px auto;
+    padding: 104px 20px;
+    width: 1200px;
+    
 }
 
 .cultura-corpo-conteudo{
     display: flex;
+    justify-content: space-between;
+}
+
+.cultura-corpo-conteudo div{
+    width: 45%;
+}
+
+.cultura-corpo-texto h2{
+    font: 500 72px 'Ifood';
+}
+.cultura-corpo-texto strong{
+    color: #eb2c3a;
+}
+
+
+.cultura-corpo-texto p{
+    font: 500 16px 'Ifood';
+    margin: 24px 0px 0px ;
 }

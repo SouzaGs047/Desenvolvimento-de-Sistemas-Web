@@ -1,10 +1,19 @@
+.cabecalho {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    background-color: white; 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 4px;
+    height: 80px;
+}
+
 .cabecalho nav {
     display: flex;
     justify-content: space-between;
     padding: 14px 40px;
     align-items: center;
     height: 80px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 4px;
 }
 
 .cabecalho nav div {
@@ -16,7 +25,6 @@
 .cabecalho nav div a:nth-child(-n+6) {
     color: rgb(65, 65, 67);
     text-decoration: none;
-    
     font: 500 16px 'Ifood';
 }
 
@@ -30,26 +38,23 @@
     align-items: center;
     padding: 14px 20px;
     text-decoration: none;
-
     color: white;
     background-color: rgb(234, 29, 44);
     border-radius: 30px;
     text-align: center; 
-
     font: 800 18px 'Ifood';
 }
 
-.botao-vagas:hover{
+.botao-vagas:hover {
     background-color: #eb2c39cc;
     transition-duration: 0.5s;
 }
 
-.cabecalho nav div button{
+.cabecalho nav div button {
     border: 0;
     color: #eb2c3a;
     background: none;
     font: 500 16px 'Ifood';
-
     display: flex;
     gap: 10px;
     align-items: center;

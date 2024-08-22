@@ -1,0 +1,36 @@
+.valores{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    z-index: 0;
+}
+
+.valores div{
+    background-color: #c80024;
+    border-top-right-radius: 110px;
+    width: 1000px;
+    padding: 40px;
+    z-index: 1;
+}
+
+.valores div h2{
+    color: white;
+    font: 500 60px 'Ifood';
+    line-height: 120%
+}
+
+.valores div p{
+    width: 530px;
+    margin-top: 20px;
+    
+    color: white;
+    font: 500 16px 'Ifood';
+    line-height: 140%;
+}
+
+.valores img{
+    position: relative; 
+    top: 38px;
+    right: 90px; 
+    z-index: 1;
+}
