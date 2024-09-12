@@ -1,0 +1,51 @@
+.pagina-calculadora {
+
+    padding: 20px;
+    font-size: 34px;
+    font-family: 'Poppins';
+
+    h1 {
+        font-size: 56px;
+    }
+
+
+    .form-calc {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border: 2px solid #000;
+        padding: 20px;
+        width: 500px;
+
+        > div {
+            display: flex;
+
+
+            label {
+                width: 250px;
+                text-align: right;
+                margin-right: 20px;
+            }
+
+            input {
+                width: 200px;
+                font-size: 28px;
+                outline: none;
+            }
+        }
+
+        #res {
+            justify-content: flex-end;
+        }
+
+        #botoes {
+            justify-content: flex-end;
+
+            button {
+                font-size: 34px;
+                padding: 20px;
+                width: 200px;
+            }
+        }
+    }
+}

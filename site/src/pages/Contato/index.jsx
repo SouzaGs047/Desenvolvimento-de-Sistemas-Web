@@ -1,3 +1,5 @@
+import './index.scss';
+
 export default function Contato(){
     return(
         <div className="pagina-contato">
